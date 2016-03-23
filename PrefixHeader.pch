@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  yummigram
+//
+//  Created by User on 3/21/15.
+//  Copyright (c) 2015 Philip. All rights reserved.
+//
+
+#ifndef yummigram_PrefixHeader_pch
+#define yummigram_PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Define.h"
+#import "ParseService.h"
+#import "DataStore.h"
+#import "AppDelegate.h"
+#import "VPImageCropperViewController.h"
+#import "UIImage+Resize.h"
+#import <AVFoundation/AVFoundation.h>
+#import <AdobeCreativeSDKFoundation/AdobeCreativeSDKFoundation.h>
+#import "NSOperationQueue+SharedQueue.h"
+#import "CustomBadge.h"
+
+#define appDelegate (AppDelegate *)[[UIApplication sharedApplication] delegate]
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

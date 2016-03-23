@@ -1,0 +1,83 @@
+PODS:
+  - AFNetworking (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.1)
+  - AFNetworking/Security (2.5.1)
+  - AFNetworking/Serialization (2.5.1)
+  - AFNetworking/UIKit (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest
+    - ASIHTTPRequest/CloudFiles
+    - ASIHTTPRequest/Core
+    - ASIHTTPRequest/S3
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - Bolts (1.1.5):
+    - Bolts/AppLinks
+    - Bolts/Tasks
+  - Bolts/AppLinks (1.1.5):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.1.5)
+  - Facebook-iOS-SDK (3.23.1):
+    - Bolts (~> 1.0)
+  - MFSideMenu (0.5.5)
+  - Nimbus/AttributedLabel (1.2.0):
+    - Nimbus/Core
+  - Nimbus/Core (1.2.0)
+  - NZCircularImageView (0.0.5):
+    - UIActivityIndicator-for-SDWebImage (~> 1.2)
+  - Reachability (3.2)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.2)
+  - SVProgressHUD (1.1.2)
+  - TPKeyboardAvoiding (1.2.6)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5)
+  - ASIHTTPRequest (~> 1.8)
+  - Facebook-iOS-SDK (~> 3.21)
+  - MFSideMenu (~> 0.5)
+  - Nimbus/AttributedLabel (= 1.2.0)
+  - NZCircularImageView
+  - SVProgressHUD (~> 1.1)
+  - TPKeyboardAvoiding (~> 1.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 10e85a00bb0f475124e4ff2677bf15693b2c1523
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  Bolts: aac24961496d504aa56fc267cde95162a71bac39
+  Facebook-iOS-SDK: d5a50d5ac6b1da948fd98c18dd8beeae854f2b3e
+  MFSideMenu: 268122e6894f2747fc3a2b48578100b232506c60
+  Nimbus: 3d6dfdeabf548ba4eb43be24e74fd202fb8c4e22
+  NZCircularImageView: cc64eae9a0dd42800b4902dc483b0b37591c3a3d
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SVProgressHUD: 3afb875b9eb23acd1bed9b82495695c68621a8b2
+  TPKeyboardAvoiding: ee4dd35e3bb7bb64bfbda47e7cc9ba872ff10f77
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+
+COCOAPODS: 0.34.4
